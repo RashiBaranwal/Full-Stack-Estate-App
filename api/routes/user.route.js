@@ -1,6 +1,6 @@
 import express from "express";
 import {
-  getUsers,getUser,updateUser,deleteUser,
+  getUsers,getUser,updateUser,deleteUser,profilePosts,
   savePost
 } from "../controllers/user.controller.js";
 import {verifyToken} from "../middleware/verifyToken.js";
@@ -12,5 +12,6 @@ router.get("/", getUsers);
 router.put("/:id", verifyToken, updateUser);
 router.delete("/:id", verifyToken, deleteUser);
 router.post("/save",verifyToken,savePost);
+router.get("/profilePosts",verifyToken,profilePosts);
 
 export default router;
