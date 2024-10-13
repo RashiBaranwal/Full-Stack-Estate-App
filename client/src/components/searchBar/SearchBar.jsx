@@ -16,7 +16,7 @@ function SearchBar() {
     setQuery((prev) => ({ ...prev, type: val }));
   };
 
-  const handleChange = (e) => {
+  const handleChange = (e) => { // This is used to handle the change in the input fields
     setQuery((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
@@ -58,7 +58,8 @@ function SearchBar() {
         />
         <Link
           to={`/list?type=${query.type}&city=${query.city}&minPrice=${query.minPrice}&maxPrice=${query.maxPrice}`}
-        >
+        > 
+        {/* // This is used to link to the list page with the query parameters in the url when the search button is clicked */}
           <button>
             <img src="/search.png" alt="" />
           </button>
