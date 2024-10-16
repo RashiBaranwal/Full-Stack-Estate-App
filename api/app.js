@@ -18,8 +18,8 @@ app.use("/api/auth",authRoute);
 app.use("/api/users",userRoute);
 app.use("/api/posts",postRoute);
 app.use("/api/test",testRoute);
-app.use("/api/chat",chatRoute);
-app.use("/api/message",messageRoute);
+app.use("/api/chats",chatRoute);
+app.use("/api/messages",messageRoute);
 
 app.listen(8800,() => {
     console.log("Server is running!");

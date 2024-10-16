@@ -10,6 +10,7 @@ function Chat({ chats }) {
   const [chat, setChat] = useState(null);
   const { currentUser } = useContext(AuthContext);
   const { socket } = useContext(SocketContext);
+  console.log(chats);
 
   const messageEndRef = useRef();
 
