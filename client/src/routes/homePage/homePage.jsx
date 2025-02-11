@@ -12,13 +12,10 @@ function HomePage() {
       <div className="textContainer">
         <div className="wrapper">
           <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            explicabo suscipit cum eius, iure est nulla animi consequatur
-            facilis id pariatur fugit quos laudantium temporibus dolor ea
-            repellat provident impedit!
-          </p>
           <SearchBar />
+          <p>
+          Discover your dream property with us! At <b className="high">EstateVista</b>, we are dedicated to helping you find the perfect place to call home, invest, or establish your business. Whether you're looking for residential properties, commercial spaces, or land for development, we've got you covered.
+          </p>
           <div className="boxes">
             <div className="box">
               <h1>16+</h1>

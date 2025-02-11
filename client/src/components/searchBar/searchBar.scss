@@ -6,14 +6,14 @@
 
     button {
       padding: 16px 36px;
-      border: 1px solid #999;
+      border: 1px solid #4C1F7A;
       border-bottom: none;
       cursor: pointer;
       background-color: white;
       text-transform: capitalize;
 
       &.active {
-        background-color: black;
+        background-color: #4C1F7A;
         color: white;
       }
 
@@ -29,7 +29,7 @@
   }
 
   form {
-    border: 1px solid #999;
+    border: 1px solid #4C1F7A;
     display: flex;
     justify-content: space-between;
     height: 64px;
@@ -68,13 +68,13 @@
           width: auto;
         }
         padding: 20px;
-        border: 1px solid #999;
+        border: 1px solid #4C1F7A;
       }
     }
 
     a{
       flex: 1;
-      background-color: #fece51;
+      background-color: #FF8000;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -82,7 +82,7 @@
       button {
         border: none;
         cursor: pointer;
-        background-color: #fece51;
+        background-color: #FF8000;
         
         @include sm{
           padding: 10px;

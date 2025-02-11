@@ -72,7 +72,7 @@ function ProfilePage() {
           </Suspense>
         </div>
       </div>
-      <div className="chatContainer">
+      {/* <div className="chatContainer">
         <div className="wrapper">
           <Suspense fallback={<p>Loading...</p>}>
             <Await
@@ -83,7 +83,7 @@ function ProfilePage() {
             </Await>
           </Suspense>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

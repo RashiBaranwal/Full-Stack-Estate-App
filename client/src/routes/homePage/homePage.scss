@@ -3,6 +3,7 @@
 .homePage {
   display: flex;
   height: 100%;
+  color: #4C1F7A;
 
   .textContainer {
     flex: 3;
@@ -34,6 +35,9 @@
           font-size: 48px;
         }
       }
+      .high{
+        color: #FF8000;
+      }
 
       .boxes {
         display: flex;
@@ -61,7 +65,7 @@
 
   .imgContainer {
     flex: 2;
-    background-color: #fcf5f3;
+    background-color: #C0EBA6;
     position: relative;
     display: flex;
     align-items: center;

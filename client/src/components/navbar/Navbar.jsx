@@ -18,19 +18,19 @@ function Navbar() {
     <nav>
       <div className="left">
         <a href="/" className="logo">
-          <img src="/logo.png" alt="" />
-          <span>LamaEstate</span>
+          <img src="/favicon1.png" alt="" />
+          <span>EstateVista</span>
         </a>
-        <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Contact</a>
-        <a href="/">Agents</a>
+        <a className="navname" href="/">Home</a>
+        <a className="navname" href="/list">Properties</a>
+        <a className="navname" href="/chat">Message</a>
+        <a className="navname" href="/contact">Contact</a>
       </div>
       <div className="right">
         {currentUser ? (
           <div className="user">
             <img src={currentUser.avatar || "/noavatar.jpg"} alt="" />
-            <span>{currentUser.username}</span>
+            <span className="updated_user">{currentUser.username}</span>
             <Link to="/profile" className="profile">
               {number > 0 && <div className="notification">{number}</div>}
               <span>Profile</span>
